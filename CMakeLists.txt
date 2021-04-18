@@ -82,6 +82,6 @@ add_library(cryptonite_hash
   # ... extra files go here ...
 )
 
-add_executable(cryptonite_benchmark main.c)
-target_link_libraries(cryptonite_benchmark cryptonite_hash pthread)
+add_executable(cryptonight_benchmark main.c)
+target_link_libraries(cryptonight_benchmark cryptonite_hash pthread)
 
